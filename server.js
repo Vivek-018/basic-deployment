@@ -22,6 +22,9 @@ app.get("/file", (req, res) => {
   console.log(__filename);
 });
 
+app.get("/exp", (req, res) => {
+  res.send("kaisa rha fir experience deployment ka ");
+});
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });
